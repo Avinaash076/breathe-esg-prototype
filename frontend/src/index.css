@@ -1,0 +1,65 @@
+:root {
+  --bg: #f4f6f2;
+  --surface: #ffffff;
+  --surface-muted: #eef3ee;
+  --text: #1f2933;
+  --text-muted: #637083;
+  --heading: #17324d;
+  --border: #d9e0dc;
+  --primary: #166f63;
+  --primary-strong: #0d554b;
+  --primary-soft: #dcefe9;
+  --accent: #b7791f;
+  --accent-soft: #fff4d8;
+  --danger: #b42318;
+  --danger-soft: #fee4e2;
+  --info: #255e9c;
+  --info-soft: #e5effb;
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 14px 30px rgba(31, 41, 51, 0.09);
+  --radius: 8px;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  color: var(--text);
+  background: var(--bg);
+  font-family: var(--font-sans);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(22, 111, 99, 0.05), rgba(244, 246, 242, 0) 340px),
+    var(--bg);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  outline-color: var(--primary);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}

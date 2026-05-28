@@ -1,0 +1,11 @@
+Meter ID,Facility Location,Reading Date,Consumption (kWh),Demand (kW),Tariff Name,Rate ($/kWh),Billing Period Start,Billing Period End,Amount ($)
+MTR-001,Corporate HQ - Building A,20260501,8450,42.5,Commercial Peak/Off-Peak,0.0850,20260401,20260430,718.25
+MTR-001,Corporate HQ - Building A,20260505,8450,42.5,Commercial Peak/Off-Peak,0.0850,20260401,20260430,718.25
+MTR-002,Manufacturing Facility - Plant 1,20260501,45230,180.5,Industrial Large Load,0.0650,20260401,20260430,2939.95
+MTR-002,Manufacturing Facility - Plant 1,20260510,45230,180.5,Industrial Large Load,0.0650,20260401,20260430,2939.95
+MTR-003,Warehouse - District Center,20260501,12450,62.5,Commercial Peak/Off-Peak,0.0780,20260401,20260430,970.71
+MTR-001,Corporate HQ - Building A,20260601,9120,44.8,Commercial Peak/Off-Peak,0.0850,20260501,20260531,775.20
+MTR-002,Manufacturing Facility - Plant 1,20260601,48670,185.2,Industrial Large Load,0.0650,20260501,20260531,3163.55
+MTR-003,Warehouse - District Center,20260601,12450,62.5,Commercial Peak/Off-Peak,0.0780,20260501,20260531,970.71
+MTR-001,Corporate HQ - Building A,20260701,8890,43.2,Commercial Peak/Off-Peak,0.0850,20260601,20260630,755.65
+MTR-002,Manufacturing Facility - Plant 1,20260701,51200,195.0,Industrial Large Load,0.0650,20260601,20260630,3328.00

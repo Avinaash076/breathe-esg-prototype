@@ -1,0 +1,9 @@
+Trip ID,Traveler Name,Travel Date,Travel Type,Origin,Destination,Distance (km),Cost ($),Currency,Notes
+TRP-2026-001,Sarah Chen,20260415,FLIGHT,SFO,NYC,4130,580,USD,Direct flight - Business meeting
+TRP-2026-002,Michael Rodriguez,20260418,FLIGHT,LAX,LAS,270,125,USD,Regional sales conference
+TRP-2026-003,Sarah Chen,20260420,HOTEL,NYC,NYC,0,285,USD,3 nights - Midtown location
+TRP-2026-004,Michael Rodriguez,20260420,HOTEL,LAS,LAS,0,175,USD,2 nights - Strip location
+TRP-2026-005,James Liu,20260425,FLIGHT,ORD,MIA,2000,410,USD,Q2 planning session
+TRP-2026-006,Emily Watson,20260426,FLIGHT,SEA,SF,1300,290,USD,Customer visit - West Coast
+TRP-2026-007,James Liu,20260427,HOTEL,MIA,MIA,0,215,USD,2 nights - Downtown Miami
+TRP-2026-008,Emily Watson,20260428,GROUND_TRANSPORT,SFO,Mountain View,50,85,USD,Taxi to client office
