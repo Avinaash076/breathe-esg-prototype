@@ -6,9 +6,10 @@ The `urlpatterns` list routes URLs to views. For more information please see:
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.views.decorators.csrf import csrf_exempt
+from django.views.generic import TemplateView
 
 urlpatterns = [
+    path('', TemplateView.as_view(template_name='index.html'), name='frontend'),
     path('admin/', admin.site.urls),
     path('api/ingestion/', include('ingestion.urls')),
 ]
